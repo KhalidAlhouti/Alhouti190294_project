@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.se_328">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileProgrammingFinalProject">
+        <activity android:name=".Activities.Update_Delete_User_Sql"></activity>
+        <activity android:name=".Activities.InsertUserSql" />
+        <activity android:name=".Activities.ShowAllUsersFromSql" />
+        <activity android:name=".Activities.InteractSql" />
+        <activity android:name=".Activities.ChangeCityName" />
+        <activity android:name=".Activities.Update_Add_User" />
+        <activity android:name=".Activities.InteractFirebase" />
+        <activity android:name=".Activities.Firebase_all_record_list" />
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
